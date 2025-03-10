@@ -1,9 +1,8 @@
 import { Alert, SafeAreaView, Text, TextInput, View } from "react-native";
 import PrimaryButton from "./PrimaryButton";
 import { useContext, useState } from "react";
-import { AppContext } from "../helpers/contexts/AppContexts";
-import addDriver from "../helpers/Api/apiDrivers";
-import supabase from "../helpers/Api/supabase";
+
+import supabase from "../helpers/api/supabase";
 import Logo from "./Logo";
 
 function SignIn() {
