@@ -2,8 +2,7 @@ import { Alert, SafeAreaView, Text, TextInput } from "react-native";
 import PrimaryButton from "./PrimaryButton";
 import { useContext, useState } from "react";
 import { AppContext } from "../helpers/contexts/AppContexts";
-import addDriver from "../helpers/Api/apiDrivers";
-import supabase from "../helpers/Api/supabase";
+import supabase from "../helpers/api/supabase";
 
 function SignUp(): JSX.Element {
   const { email, password, dispatch } = useContext(AppContext);
