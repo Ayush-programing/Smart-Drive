@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FlatList, SafeAreaView, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import getDummyTrips from "../helpers/Api/apiDummyTrips";
+import getDummyTrips from "../helpers/api/apiDummyTrips";
 import Logo from "./Logo";
 import { useReusableQuery } from "../helpers/smart-drive-hooks";
 
